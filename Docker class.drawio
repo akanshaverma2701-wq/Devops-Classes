@@ -1,0 +1,303 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZKXYPPjO_T6hG3NFIvYZ">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NzShjJ24OLTumAYWdT6c-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Docker&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="120" x="510" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Hardware - 10 GB / 10 core" vertex="1">
+          <mxGeometry height="30" width="120" x="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Host OS&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="125" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="every VM has own OS - so&amp;nbsp; will have booting time&amp;nbsp;" vertex="1">
+          <mxGeometry height="28.12" width="330" x="650" y="61.88" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="app required - 4 gb , 4 core&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="100" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-8" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="130" />
+              <mxPoint x="140" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Hyperwiser (Virtual Box)&amp;nbsp; - VMware / Xen" vertex="1">
+          <mxGeometry height="60" width="180" x="100" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="VM1" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="VM2" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-14" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="VM3" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="130" />
+              <mxPoint x="190" y="130" />
+            </Array>
+            <mxPoint x="190" y="140" as="sourcePoint" />
+            <mxPoint x="190" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="130" />
+              <mxPoint x="240" y="130" />
+            </Array>
+            <mxPoint x="240" y="140" as="sourcePoint" />
+            <mxPoint x="240" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-16" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OS&amp;nbsp;&lt;div&gt;memroy - 4 gb&amp;nbsp;&lt;/div&gt;&lt;div&gt;4 core&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53.75" width="120" x="330" y="8.13" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-17" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Middle ware - NGINX&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="110" x="305" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mere laptop me software ka version alag hai , mujkhe dependencies alg se install krni hongi jo is app k lie required h&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="330" x="649" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="costing - cloud sub, servers, laptop, software&amp;nbsp; &amp;nbsp;, easily transferrable&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="330" x="650" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="Containerization&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Hardware - 10 GB / 10 core" vertex="1">
+          <mxGeometry height="30" width="120" x="210" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Host OS&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="125" x="210" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-29" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Docker Engine&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="180" x="182.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cont 1" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-25" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cont 2" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-33" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cont 3" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="430" />
+              <mxPoint x="190" y="430" />
+            </Array>
+            <mxPoint x="200" y="450" as="sourcePoint" />
+            <mxPoint x="190" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="450" as="sourcePoint" />
+            <mxPoint x="347" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-32" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="Application&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="295" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Container&amp;nbsp; - it is a small packet which consist of all the&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;required softwares&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;code&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;libraries and dependencies&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;config files&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;which are needed to run the application&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="490" x="510" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Self Contained&amp;nbsp; - container me sab kuch hota hai to host machine pr kuch nhi install krne ki need nahi hoti hai&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="450" x="450" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Isolated&amp;nbsp; - har container alg rehta hai, means cont 1 crash hua to con 2 pr koi frk nhi padega&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="450" x="450" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="portable&amp;nbsp; &amp;nbsp;- laptop , server, cloud kahi pr bhi chalaenge to same hi chalega&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="450" x="450" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Light weight - no OS , needed requirements&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="450" x="450" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="Benefits&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="110" x="460" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scalable&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="450" x="450" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Docker&amp;nbsp; - It is a tool / platform which packs our application in a small box known as container&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="800" x="210" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Container&amp;nbsp; - it is a small packet which consist of all the&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;required softwares&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;code&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;libraries and dependencies&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;config files&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;which are needed to run the application&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="790" x="220" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="&lt;b&gt;Image&amp;nbsp; -&amp;nbsp; Docker Image is a ready made package which has -&amp;nbsp;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;required softwares&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;code&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;libraries and dependencies&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;config files&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="790" x="220" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Image is a package which has app + all the required things which are needed to run the application&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;It is a blue print of a container&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;It is static template&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Container is image se run hoga , image nhi hogi to container run nhi kr skta&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="790" x="220" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Image&amp;nbsp; = Read only ( CD)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Container&amp;nbsp; - CD se chalne vala computer&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="457.5" x="410" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="Images are immutable - Image banne ke bad change nhi hoti , change chahie to new image bnao&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="500" x="230" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="Images are made up of layers - har ek layer ek file system hoti hai.&amp;nbsp;&lt;div&gt;Layer add/ remove / modify kr skte hai, to create new image&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="500" x="230" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Layer 1 - OS" vertex="1">
+          <mxGeometry height="30" width="150" x="850" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Layer 2-&amp;nbsp; Python Install" vertex="1">
+          <mxGeometry height="30" width="150" x="850" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Layer 3 - app dependencies" vertex="1">
+          <mxGeometry height="30" width="150" x="850" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Layer 4 - app code" vertex="1">
+          <mxGeometry height="30" width="150" x="850" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-54" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="From where will we get images ?&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="470" x="460" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-53" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcc99;strokeColor=#36393d;" value="Docker Hub&amp;nbsp; - default online market place for&amp;nbsp; images , just login and then we can use the images&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="490" x="450" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="Commands related to images&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="470" x="450" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Docker search &amp;lt;image name&amp;gt;&amp;nbsp; &amp;nbsp;- to search the image on docker hub&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="250" x="362.5" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Docker pull &amp;lt; image name&amp;gt;&amp;nbsp; - to download the image from hub to local&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="250" x="362.5" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Docker images / docker images ls - to show the downloaded images&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="341" x="689" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Docker rmi &amp;lt;image name&amp;gt; - to dlt the image from local&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="341" x="689" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="How to create a container ???&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="470" x="470" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-63" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-62" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="docker run &amp;lt; imagename &amp;gt;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="190" x="460" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-62" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="Container foreground me chal rha hai background me nhi&amp;nbsp;&lt;div&gt;hmara terminal busy ho ja rha hai&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="305" x="765" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-66" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="docker run&amp;nbsp; -d &amp;lt; imagename &amp;gt;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="190" x="459" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-65" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;rounded=1;" value="background me chalega&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="296" x="764" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-69" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Https: localhoar:8080&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="295" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-70" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="106.88" width="118.76" x="570" y="2153.12" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-74" edge="1" parent="1" source="NzShjJ24OLTumAYWdT6c-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzShjJ24OLTumAYWdT6c-73" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="2207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="system post 8080&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="599.38" y="2185" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-73" parent="1" style="whiteSpace=wrap;html=1;" value="Docker container nginx - port 80&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="820" y="2176.56" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="docker run&amp;nbsp; -d -p 8080: 80&amp;nbsp; &amp;lt; imagename &amp;gt;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="450" x="490" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-77" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="NzShjJ24OLTumAYWdT6c-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="2320" as="sourcePoint" />
+            <mxPoint x="710" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="system port" vertex="1">
+          <mxGeometry height="30" width="60" x="680" y="2265" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="734" y="2320" as="sourcePoint" />
+            <mxPoint x="740" y="2295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Image port" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="Docker Commands&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="252.5" x="588.75" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Docker logs&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker stop&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="2540" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-84" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker start" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="2580" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker rm&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="2620" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker ps/ ls" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker ps -a&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="2700" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker stop $(docker ps -q)" vertex="1">
+          <mxGeometry height="40" width="200" x="340" y="2740" as="geometry" />
+        </mxCell>
+        <mxCell id="NzShjJ24OLTumAYWdT6c-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker rm $(docker ps -aq)" vertex="1">
+          <mxGeometry height="40" width="200" x="340" y="2780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
