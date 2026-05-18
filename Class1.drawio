@@ -4,6 +4,164 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;nbsp;DevOps&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="110" x="450" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="any IT Company&amp;nbsp; - improvise the other industry through automation&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="290" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-8" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="451" y="109" />
+              <mxPoint x="451" y="110" />
+            </Array>
+            <mxPoint x="490" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-6" parent="1" style="shape=mxgraph.cisco.people.standing_man;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="62" width="22" x="390" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-9" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Payment_Method-2237/_amazon.com-1236.svg" value="" vertex="1">
+          <mxGeometry height="74" width="74" x="530" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-10" parent="1" style="shape=mxgraph.cisco.people.standing_man;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="62" width="22" x="390" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="200" />
+              <mxPoint x="460" y="200" />
+            </Array>
+            <mxPoint x="440" y="200" as="sourcePoint" />
+            <mxPoint x="530" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-13" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="39" width="23" x="547" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-14" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="39" width="23" x="590" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-16" parent="1" style="shape=mxgraph.cisco.people.standing_man;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-37" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="210" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="279.5" as="sourcePoint" />
+            <mxPoint x="190" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Sales person from IT&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="155" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Client&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="35" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Website/ application" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-25" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Project Manager/ Product Manager&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-27" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="SRD / BRD&amp;nbsp; - Business Analyst&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-29" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="HLD / LLD&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-31" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-33" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-35" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-30" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="HR&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="730" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-32" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="Devlopers , Devops Engineer&amp;nbsp; , Data Engineers" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="LinkedIn / Naukri&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="547" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-39" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Developer - code likhega&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="35" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-41" edge="1" parent="1" source="h5xwLSmfNkmzptXZXaqE-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h5xwLSmfNkmzptXZXaqE-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-38" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="Testing&amp;nbsp; - dev server / pre prod&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="235" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-40" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="Deploying&amp;nbsp; - production&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="435" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="IT is a process to improve delivery of the application/ website / software by ensuring -&amp;nbsp;&lt;div&gt;automation&amp;nbsp;&lt;/div&gt;&lt;div&gt;Quality&amp;nbsp;&lt;/div&gt;&lt;div&gt;Monitoring&amp;nbsp;&lt;/div&gt;&lt;div&gt;Testing&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="710" x="120" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Linux" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Git/ Git Hub&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-45" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" value="Cloud" vertex="1">
+          <mxGeometry height="60" width="100" x="140" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Azure Cloud&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Terraform&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="CI/ CD Pipeline - Jenkins . Azure Devops&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="190" x="40" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Docker&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Kubernetes" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Grafana/ Prometheus&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="h5xwLSmfNkmzptXZXaqE-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;DevOps - google/ Chat GPT&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Tools&amp;nbsp; needed for Devops&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Job profiles&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Draw.io&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="380" x="340" y="700" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
