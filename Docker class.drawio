@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="ZKXYPPjO_T6hG3NFIvYZ">
-    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,6 +296,91 @@
         </mxCell>
         <mxCell id="NzShjJ24OLTumAYWdT6c-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker rm $(docker ps -aq)" vertex="1">
           <mxGeometry height="40" width="200" x="340" y="2780" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="docker run -d -p 8080:80 -name nginx nginx&amp;nbsp;&lt;div&gt;yha pr port kyu publish kia ?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="480" x="340" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Frontend Container&amp;nbsp;&lt;div&gt;React&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Backend Container&amp;nbsp;&lt;div&gt;React&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Database" vertex="1">
+          <mxGeometry height="60" width="120" x="635" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ye teeno containers apas me isolated h&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" x="305" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Port Publish&amp;nbsp; - host machine ke ek port ko container ke ek port se connect (forward kr denge)&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="330" x="370" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-7" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="Nginx : port 80&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="78" width="86.67" x="182.5" y="3110" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-9" edge="1" parent="1" source="cPDjd1D4VpfgA8b3wGAO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="3150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-8" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="78" width="86.67" x="612.5" y="3150" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cont&lt;div&gt;&amp;nbsp;nginx : 80&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="52.5" x="197.5" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="port 8080" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" value="app" vertex="1">
+          <mxGeometry height="30" width="30" x="645" y="3170" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Docker Registry&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="220" x="420" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-16" edge="1" parent="1" source="cPDjd1D4VpfgA8b3wGAO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cPDjd1D4VpfgA8b3wGAO-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="3380" />
+              <mxPoint x="365" y="3380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-18" edge="1" parent="1" source="cPDjd1D4VpfgA8b3wGAO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cPDjd1D4VpfgA8b3wGAO-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="it is a places where docker images are stored and shared&amp;nbsp;&lt;div&gt;images can be pulled (download) and we can upload (push) the images there&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="420" x="320" y="3290" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Public Registry" vertex="1">
+          <mxGeometry height="30" width="120" x="305" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Private Registry" vertex="1">
+          <mxGeometry height="30" width="120" x="615" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-19" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="anyone can use it&amp;nbsp;&lt;div&gt;eg - docker hub&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="305" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="individual / company specific for secure images&lt;div&gt;&amp;nbsp;azure ACR&lt;/div&gt;&lt;div&gt;Amazon ECR&lt;/div&gt;&lt;div&gt;Google GCR&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="580" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="How to execute/ work in a container ?" vertex="1">
+          <mxGeometry height="30" width="625" x="245" y="3540" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="docker exec -it &amp;lt;container id&amp;gt; bash" vertex="1">
+          <mxGeometry height="60" width="460" x="320" y="3580" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="How to make a changes in the image running inside the container ?&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="380" x="370" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="image - nginx&amp;nbsp;&lt;div&gt;nginx ka path - usr -&amp;gt; share -&amp;gt; nginx&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="390" x="370" y="3740" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Docker file&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="145" x="495" y="3860" as="geometry" />
+        </mxCell>
+        <mxCell id="cPDjd1D4VpfgA8b3wGAO-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="image banane ke lie instructions&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="3920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
