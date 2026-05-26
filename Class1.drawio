@@ -907,13 +907,52 @@
           <mxGeometry height="40" width="480" x="-195.39" y="5630" as="geometry" />
         </mxCell>
         <mxCell id="gjC1hlnYmlQA2CtTvUyu-139" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Sudo - super user do&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="186.5" x="323.5" y="5510" as="geometry" />
+          <mxGeometry height="60" width="186.5" x="340" y="5430" as="geometry" />
         </mxCell>
         <mxCell id="gjC1hlnYmlQA2CtTvUyu-140" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="touch &amp;lt;file name &amp;gt; - to create a new file&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="480" x="-195.39" y="5680" as="geometry" />
         </mxCell>
         <mxCell id="gjC1hlnYmlQA2CtTvUyu-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="cd ..&amp;nbsp; - to go back to the previous folder&amp;nbsp;&amp;nbsp;&lt;div&gt;cd ../../..&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="480" x="-195.39" y="5730" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="la - to show all the hidden files and folders as well" vertex="1">
+          <mxGeometry height="40" width="480" x="-190" y="5780" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="nano - to edit the file / to write anything inside file&amp;nbsp;&lt;div&gt;ctrl+ s = to save after making changes&amp;nbsp;&lt;/div&gt;&lt;div&gt;ctrl +x = to come outside the file&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="480" x="-190" y="5830" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" value="vi/ vim&amp;nbsp; - to edit the file&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;i - insert mode - now we can make any changes&amp;nbsp;&lt;/div&gt;&lt;div&gt;esc key&amp;nbsp; - to come outside insert mode&amp;nbsp;&lt;/div&gt;&lt;div&gt;:w - to save the file&amp;nbsp;&lt;/div&gt;&lt;div&gt;:q - to exit the file&lt;/div&gt;&lt;div&gt;:q! - to force quit and no save&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;:wq - to first save and then exit&lt;/div&gt;&lt;div&gt;:number - to go on that particular number line&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="480" x="-192.5" y="5920" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="cat - to read the contents of the file&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-194.37" y="6090" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ls - to list all the folders and files at the current place&amp;nbsp;&lt;div&gt;ls -ll/ ls -l - to show the long list with all details&amp;nbsp;&lt;/div&gt;&lt;div&gt;ls -lh / ls -llh - to show the contents in human readable form&amp;nbsp;&lt;/div&gt;&lt;div&gt;ls -a - to show the hidden files/ folders as well&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="480" x="-192.5" y="6140" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="cp &amp;lt;file1&amp;gt; &amp;lt;file2&amp;gt; - file1 ka content file2 me copy ho jaega / override ho jaega&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-190" y="6230" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="rm &amp;lt;filename&amp;gt; - to delete a file&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-186.25" y="6280" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="rmdir &amp;lt;dir name&amp;gt; - to delete an empty folder&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-192.5" y="6330" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="rmdir &amp;lt;dir name&amp;gt; - to delete an empty folder&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-187.5" y="6380" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="less &amp;lt;file name&amp;gt; - to show the content of the first page of the file&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-190" y="6430" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="more &amp;lt;file name&amp;gt; - to show the pages of the file one by one&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-187.5" y="6490" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="head &amp;lt;file name&amp;gt; - shows the first 10 lines of the file&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-186.25" y="6540" as="geometry" />
+        </mxCell>
+        <mxCell id="MwWCZ62JOikUudUct8sj-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="tail &amp;lt;file name&amp;gt; - shows the last 10 lines of the file&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="480" x="-184" y="6590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
