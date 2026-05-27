@@ -979,7 +979,7 @@
           <mxGeometry height="40" width="480" x="-185" y="7060" as="geometry" />
         </mxCell>
         <mxCell id="Hqek5qcCykn1dl7YKQ38-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="add user&amp;nbsp;&lt;div&gt;add group&amp;nbsp;&lt;/div&gt;&lt;div&gt;permissions&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="480" x="-160" y="7120" as="geometry" />
+          <mxGeometry height="40" width="480" x="-184" y="7120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
