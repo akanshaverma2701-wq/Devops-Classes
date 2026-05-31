@@ -1082,6 +1082,91 @@
         <mxCell id="VCHZCTz8gyi0ntZhbTNd-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="relative path&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="110" x="190.01" y="7378" as="geometry" />
         </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-2" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" value="Cloud" vertex="1">
+          <mxGeometry height="60" width="149.99" x="0.01" y="7580" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-4" edge="1" parent="1" source="6395ac5mFaJQC6MpXJUn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="7680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-6" edge="1" parent="1" source="6395ac5mFaJQC6MpXJUn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="7730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Business Idea&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-240" y="7680" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-8" edge="1" parent="1" source="6395ac5mFaJQC6MpXJUn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="7800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Capex&amp;nbsp; - capital expenditure - setting up cost&amp;nbsp; - office space,&amp;nbsp; hardwares, tables, chairs, interior, pantry , servers, wifi&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="340" x="60" y="7660" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Opex -&amp;nbsp; operational cost - office boys , maintenance, wear and tear cost , electricity bill, salaries&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="339" x="61" y="7720" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-9" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;" value="Cloud" vertex="1">
+          <mxGeometry height="30" width="55" x="421" y="7810" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="cloud providers - Servers, softwares, license, networking&amp;nbsp; (router, gateway, switches, cable line), maintenance&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="600" x="-195.39" y="7795" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="Microsoft - azure&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-139" y="7880" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="amazon&amp;nbsp; - AWS (amazon Web Service)&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="27.78" y="7880" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="google&amp;nbsp; - GCP (Google Cloud Platform)&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="7880" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-18" edge="1" parent="1" source="6395ac5mFaJQC6MpXJUn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="8060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-19" edge="1" parent="1" source="6395ac5mFaJQC6MpXJUn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6395ac5mFaJQC6MpXJUn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-21" edge="1" parent="1" source="6395ac5mFaJQC6MpXJUn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="64.44999999925494" y="8060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Types of Services offered by cloud providers" vertex="1">
+          <mxGeometry height="60" width="280" x="-75.55" y="7950" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="IAAS (infrastructure as a service)" vertex="1">
+          <mxGeometry height="60" width="120" x="-245.55" y="8070" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="PAAS (Platform as a service)" vertex="1">
+          <mxGeometry height="60" width="120" x="-4" y="8070" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SAAS (Software as a service)" vertex="1">
+          <mxGeometry height="60" width="120" x="274" y="8070" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sirf plot lia - all the other needed controls and things are in the hands of user" vertex="1">
+          <mxGeometry height="60" width="120" x="-243" y="8150" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ready made kitchen set up&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-4" y="8150" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="hotel room rent kr lia&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="274" y="8150" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Virtual Computer" vertex="1">
+          <mxGeometry height="40" width="115.55" x="-245.55" y="8220" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Storage Account" vertex="1">
+          <mxGeometry height="40" width="115.55" x="-2.7699999999999996" y="8220" as="geometry" />
+        </mxCell>
+        <mxCell id="6395ac5mFaJQC6MpXJUn-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Storage Account" vertex="1">
+          <mxGeometry height="40" width="115.55" x="277.12" y="8220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
