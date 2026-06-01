@@ -1158,15 +1158,6 @@
         <mxCell id="6395ac5mFaJQC6MpXJUn-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="hotel room rent kr lia&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="274" y="8150" as="geometry" />
         </mxCell>
-        <mxCell id="6395ac5mFaJQC6MpXJUn-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Virtual Computer" vertex="1">
-          <mxGeometry height="40" width="115.55" x="-245.55" y="8220" as="geometry" />
-        </mxCell>
-        <mxCell id="6395ac5mFaJQC6MpXJUn-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Storage Account" vertex="1">
-          <mxGeometry height="40" width="115.55" x="-2.7699999999999996" y="8220" as="geometry" />
-        </mxCell>
-        <mxCell id="6395ac5mFaJQC6MpXJUn-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Storage Account" vertex="1">
-          <mxGeometry height="40" width="115.55" x="277.12" y="8220" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
