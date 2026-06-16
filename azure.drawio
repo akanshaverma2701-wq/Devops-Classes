@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3FCAWgGivvUF1Nj-s7xG">
-    <mxGraphModel dx="824" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -716,6 +716,68 @@
         </mxCell>
         <mxCell id="EnjcHvna591Kqcv2CICR-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;IDE Tool - VS Code&amp;nbsp;&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="405" x="347" y="4810" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-4" edge="1" parent="1" source="fga7eTrGUmKx1MwrDtWP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fga7eTrGUmKx1MwrDtWP-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Config file -&amp;nbsp; resource.tf" vertex="1">
+          <mxGeometry height="70" width="80" x="120" y="4900" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-6" edge="1" parent="1" source="fga7eTrGUmKx1MwrDtWP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fga7eTrGUmKx1MwrDtWP-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="4935" />
+              <mxPoint x="460" y="4935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Terraform init&amp;nbsp;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="4905" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="&lt;b&gt;Terraform initialize&amp;nbsp;&lt;/b&gt;&lt;div&gt;ye cloud provider ko call , bataega ki kis folder me and kis cloud me hm kam kr rhe hai&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;initializes the backend&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;initializes the provider plugins&amp;nbsp; - it creates one folder by the name of .terraform - calls all the plugins from cloud and store it in our local&lt;/div&gt;&lt;div&gt;it creates a folder .terraform.lock.hcl which locks the version of the provider&amp;nbsp; - it makes sure that same provider version is used in all the terraform runs&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="460" x="480" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Terraform Blocks&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="415" y="5060" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Terraform&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="114.72" x="155.28" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="required providers" vertex="1">
+          <mxGeometry height="30" width="114.72" x="155.28" y="5190" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="provider&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="114.72" x="155.28" y="5230" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="module" vertex="1">
+          <mxGeometry height="30" width="114.72" x="155.28" y="5270" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="import" vertex="1">
+          <mxGeometry height="30" width="114.72" x="155.28" y="5310" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="provisioner&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="114.72" x="155.28" y="5350" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="variable" vertex="1">
+          <mxGeometry height="30" width="114.72" x="317.64" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="resource&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="114.72" x="315.28" y="5190" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="data" vertex="1">
+          <mxGeometry height="30" width="114.72" x="315.28" y="5230" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="dynamic" vertex="1">
+          <mxGeometry height="30" width="114.72" x="315.28" y="5270" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="null" vertex="1">
+          <mxGeometry height="30" width="114.72" x="315.28" y="5310" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="backend" vertex="1">
+          <mxGeometry height="30" width="114.72" x="315.28" y="5350" as="geometry" />
+        </mxCell>
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="features" vertex="1">
+          <mxGeometry height="30" width="114.72" x="493.41" y="5150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
