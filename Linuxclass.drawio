@@ -943,7 +943,7 @@
           <mxGeometry height="40" width="480" x="-192.5" y="6330" as="geometry" />
         </mxCell>
         <mxCell id="MwWCZ62JOikUudUct8sj-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="rmdir &amp;lt;dir name&amp;gt; - to delete an empty folder&amp;nbsp;" vertex="1">
-          <mxGeometry height="40" width="480" x="-187.5" y="6380" as="geometry" />
+          <mxGeometry height="40" width="480" x="-191.5" y="6380" as="geometry" />
         </mxCell>
         <mxCell id="MwWCZ62JOikUudUct8sj-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="less &amp;lt;file name&amp;gt; - to show the content of the first page of the file&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="480" x="-190" y="6430" as="geometry" />
