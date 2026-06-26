@@ -829,7 +829,7 @@
           <mxGeometry height="60" width="120" x="72.5" y="5590" as="geometry" />
         </mxCell>
         <mxCell id="2_hOAjof0Q0V_Yc-9vo_-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="it checks if the configuration is syntactically valid and internally consistent&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="210" y="5670" as="geometry" />
+          <mxGeometry height="30" width="210" x="207" y="5670" as="geometry" />
         </mxCell>
         <mxCell id="2_hOAjof0Q0V_Yc-9vo_-18" edge="1" parent="1" source="2_hOAjof0Q0V_Yc-9vo_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
@@ -873,29 +873,35 @@
         <mxCell id="2_hOAjof0Q0V_Yc-9vo_-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="Config file -&amp;nbsp; resource.tf" vertex="1">
           <mxGeometry height="70" width="80" x="90" y="5480" as="geometry" />
         </mxCell>
-        <mxCell id="-mbjhE5D9MRw-dl7g4Tc-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Advantages of terraform&amp;nbsp;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="50" width="510" x="185" y="5910" as="geometry" />
+        <mxCell id="-mbjhE5D9MRw-dl7g4Tc-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Advantages of terraform&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;can be used in multiple cloud providers&amp;nbsp;&lt;/li&gt;&lt;li&gt;can be used in hybrid cloud set up&lt;/li&gt;&lt;li&gt;can track our infra using terraform i.e. we dont need to login to cloud provider, we can simply login terraform and check state file&amp;nbsp;&lt;/li&gt;&lt;li&gt;we can automate changes&amp;nbsp;&lt;/li&gt;&lt;li&gt;except state file we can keep all the config files in git repository and hence we can collaborate with our peers&lt;/li&gt;&lt;li&gt;standardize configuration&amp;nbsp;&lt;/li&gt;&lt;li&gt;takes re confirmation while applying&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="700" x="110" y="5890" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Statefile&amp;nbsp; &amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="260" x="284" y="5990" as="geometry" />
+          <mxGeometry height="60" width="260" x="236.75" y="6110" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="when we use terraform to create/ mange&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="520" x="100" y="6070" as="geometry" />
+          <mxGeometry height="60" width="520" x="175" y="6210" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="config file&amp;nbsp;&lt;div&gt;resource.tf&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="155.75" y="6210" as="geometry" />
+          <mxGeometry height="60" width="120" x="120" y="6290" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="terraform.tfstate" vertex="1">
-          <mxGeometry height="60" width="120" x="285.25" y="6210" as="geometry" />
+          <mxGeometry height="60" width="120" x="270" y="6290" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="azure portal (cloud)&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="120" x="414.72" y="6210" as="geometry" />
+          <mxGeometry height="60" width="120" x="430" y="6290" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="drift state&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="120" x="282.36" y="6300" as="geometry" />
+          <mxGeometry height="60" width="120" x="275.75" y="6380" as="geometry" />
         </mxCell>
         <mxCell id="-mbjhE5D9MRw-dl7g4Tc-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Equilibrium state" vertex="1">
-          <mxGeometry height="60" width="120" x="582.5" y="6210" as="geometry" />
+          <mxGeometry height="60" width="120" x="605" y="6290" as="geometry" />
+        </mxCell>
+        <mxCell id="ETAj4OAYx9sHKTeXE_ou-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="configuration files (.tf) -&amp;nbsp; actual truth&amp;nbsp;&lt;div&gt;terraform isi ke hisab se chalta hai&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="150" y="6450" as="geometry" />
+        </mxCell>
+        <mxCell id="ETAj4OAYx9sHKTeXE_ou-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Storage Accounts&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="164.72" x="275.28" y="6540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
