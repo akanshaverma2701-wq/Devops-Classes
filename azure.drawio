@@ -900,8 +900,136 @@
         <mxCell id="ETAj4OAYx9sHKTeXE_ou-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="configuration files (.tf) -&amp;nbsp; actual truth&amp;nbsp;&lt;div&gt;terraform isi ke hisab se chalta hai&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="460" x="150" y="6450" as="geometry" />
         </mxCell>
-        <mxCell id="ETAj4OAYx9sHKTeXE_ou-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Storage Accounts&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="164.72" x="282.78" y="6530" as="geometry" />
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-3" edge="1" parent="1" source="ETAj4OAYx9sHKTeXE_ou-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="6785" />
+              <mxPoint x="330" y="6785" />
+              <mxPoint x="330" y="6810" />
+            </Array>
+            <mxPoint x="330" y="6810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-4" edge="1" parent="1" source="ETAj4OAYx9sHKTeXE_ou-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="6785" />
+              <mxPoint x="540" y="6785" />
+              <mxPoint x="540" y="6810" />
+            </Array>
+            <mxPoint x="560" y="6810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-6" edge="1" parent="1" source="ETAj4OAYx9sHKTeXE_ou-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="6810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-7" edge="1" parent="1" source="ETAj4OAYx9sHKTeXE_ou-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="6810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETAj4OAYx9sHKTeXE_ou-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Azure Storage Accounts&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage centre - jiske andar azure k sare storage services rehte hai&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;it is&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(22, 22, 22); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Variable Text&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(22, 22, 22); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Variable Text&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;highly available, secure, durable, scalable, and redundant.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="550" x="160" y="6640" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="As a good practice the terraform state file has to be stored on remote&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Azure Storage Account&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;AWS S3 bucket&amp;nbsp;&lt;/div&gt;&lt;div&gt;Google Cloud Storage&amp;nbsp;&lt;/div&gt;&lt;div&gt;Terraform Cloud/ HCP Terraform&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="670" x="60" y="6520" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Blob Storage&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="116.5" x="83.5" y="6810" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="File share" vertex="1">
+          <mxGeometry height="40" width="116.5" x="273.5" y="6810" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Queues" vertex="1">
+          <mxGeometry height="40" width="116.5" x="483.5" y="6810" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Tables" vertex="1">
+          <mxGeometry height="40" width="116.5" x="664.75" y="6810" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Storage accounts provide a unique namespace for azure storage data means - har storage account ka globally unique name hoga&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="660" x="90" y="6860" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="storage accounts ko globally kahi se bhi access kr skte hai , unique name se urls bante hai jinhe hm &lt;b&gt;https/http&lt;/b&gt; se acces kr skte hai&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="660" x="90" y="6930" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-14" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="115" y="7080" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="abc&amp;nbsp;&lt;div&gt;https://abc.....&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="115" x="85" y="7040" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-16" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="425.25" y="7080" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="xyz&lt;br&gt;&lt;div&gt;https://xyz.....&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="115" x="396" y="7040" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-19" parent="1" style="whiteSpace=wrap;html=1;" value="file1&lt;div&gt;data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="7130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-20" parent="1" style="whiteSpace=wrap;html=1;" value="song" vertex="1">
+          <mxGeometry height="60" width="120" x="392.36" y="7130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="An azure storage account is a globally unique, secure, highly available and scalable container that holds azure storage services such as blobs, file shares, queues and tables and it provides a single namespace to access them over http/ https&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="703" x="117" y="7210" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-25" edge="1" parent="1" source="5xbCUJT6M0vcQnQ4WNSr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5xbCUJT6M0vcQnQ4WNSr-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Blob Storage&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="120" x="140" y="7280" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;ul&gt;&lt;li&gt;It is used to store unstructured data&lt;/li&gt;&lt;li&gt;&amp;nbsp;images, videos, logs, backups, .tf, .tfstate&amp;nbsp;&lt;/li&gt;&lt;li&gt;common uses - website images,&amp;nbsp; application logs, .tfstate, media content&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;http/ https se hm ise access kr skte hai&amp;nbsp;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;terraform me mostly use hota hai&amp;nbsp;&lt;/li&gt;&lt;li&gt;access krne k lie port use - 443&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="100" y="7340" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-28" edge="1" parent="1" source="5xbCUJT6M0vcQnQ4WNSr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5xbCUJT6M0vcQnQ4WNSr-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="File share&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="120" x="363" y="7280" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-27" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;align=left;" value="&lt;ul&gt;&lt;li&gt;it is like a network drive&lt;/li&gt;&lt;li&gt;traditional file system&amp;nbsp;&lt;/li&gt;&lt;li&gt;same files ko multiple VMs access kr skte&lt;/li&gt;&lt;li&gt;unstructured data&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;accessed by SMB (server messaging Block)&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;use cases - windows/ linux , lift and shift applications&amp;nbsp;&lt;/li&gt;&lt;li&gt;access port is 445&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="200" width="185.64" x="330.18" y="7340" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-36" edge="1" parent="1" source="5xbCUJT6M0vcQnQ4WNSr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5xbCUJT6M0vcQnQ4WNSr-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-29" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" value="showing the data&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="100" x="200" y="7640" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-30" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="364" y="7640" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-31" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="528.75" y="7640" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-32" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="products" vertex="1">
+          <mxGeometry height="30" width="87" x="202.07" y="7660" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-33" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="user purchase" vertex="1">
+          <mxGeometry height="40" width="87" x="370.5" y="7650" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-34" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="order process&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="87" x="533" y="7650" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-35" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" value="Storage account&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="100" x="50" y="7640" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-37" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="data&amp;nbsp;" vertex="1">
+          <mxGeometry height="25" width="87" x="50" y="7655" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-38" edge="1" parent="1" source="5xbCUJT6M0vcQnQ4WNSr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="7670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-39" edge="1" parent="1" source="5xbCUJT6M0vcQnQ4WNSr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.559;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="5xbCUJT6M0vcQnQ4WNSr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbCUJT6M0vcQnQ4WNSr-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Resource group - name, location&amp;nbsp;&lt;div&gt;storage account&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;storage type&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="450" x="150" y="7760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
