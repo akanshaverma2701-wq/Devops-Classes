@@ -1425,6 +1425,18 @@
         <mxCell id="LSxagZJ76Zj6Aq-rcaEQ-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GZRS&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="60" x="850.05" y="9950" as="geometry" />
         </mxCell>
+        <mxCell id="LSxagZJ76Zj6Aq-rcaEQ-79" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="37.5" x="534.72" y="9820" as="geometry" />
+        </mxCell>
+        <mxCell id="LSxagZJ76Zj6Aq-rcaEQ-80" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="37.5" x="510" y="9800" as="geometry" />
+        </mxCell>
+        <mxCell id="LSxagZJ76Zj6Aq-rcaEQ-81" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="37.5" x="968.25" y="10010" as="geometry" />
+        </mxCell>
+        <mxCell id="LSxagZJ76Zj6Aq-rcaEQ-82" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="37.5" x="902.5" y="10000" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
