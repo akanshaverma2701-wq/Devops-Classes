@@ -1817,6 +1817,54 @@
         <mxCell id="sXnV7GfrQs4-a82QNrdD-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Encrypted&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="60" x="490" y="11640" as="geometry" />
         </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" value="&lt;b&gt;Access Tier - it decides how frequently we access the data stored in storage account - accordingly the storage and access cost is decided&amp;nbsp;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="400" x="190" y="11720" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Access&amp;nbsp; -- zada kr rhe hai - access costing less , access krne me kitna effort lg rha hai&amp;nbsp;&lt;br&gt;&lt;br&gt;Storage - storage ka effort kitna hai uske hisab se storage costing hoti hai&amp;nbsp;" vertex="1">
+          <mxGeometry height="120" width="250" x="270" y="11800" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="&lt;b&gt;Hot Tier&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Almirah me front pr rkha hoga , access me km effort lga&amp;nbsp;&lt;div&gt;Frequently Accessed&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Access cost less&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage - effort zada lga, storage costing zada hoga&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="120" x="53" y="11950" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="Cool Tier&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;infrequently accessed access cost more&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;storage cost low&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="120" x="220" y="11950" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Cold Teir&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Rarely Accessed&amp;nbsp; - very high access cost&amp;nbsp;&lt;br&gt;&lt;br&gt;Storage cost very low&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="120" x="382.38" y="11950" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="&lt;b&gt;Archive&lt;/b&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;Almost never accessed - very high cost , cant read data directly , pehle rehydrate hoga&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Storage cost - low&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="120" x="554.38" y="11950" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-7" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="100" width="125" x="62" y="12180" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-8" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Blob_Block.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="80" y="12220" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-9" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.file_system;" value="" vertex="1">
+          <mxGeometry height="26" width="27.78" x="116.11" y="12234" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-10" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="100" width="125" x="220" y="12180" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-11" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Blob_Block.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="229.25" y="12210" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-12" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.file_system;" value="" vertex="1">
+          <mxGeometry height="26" width="27.78" x="259.86" y="12227" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="V1" vertex="1">
+          <mxGeometry height="30" width="60" x="85" y="12280" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="V2" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="12280" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="How can you recover/ protect your data saved in&lt;b&gt; blob in storage account &lt;/b&gt;??&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;point in time restore for containers&lt;/div&gt;&lt;div&gt;soft delete for blobs/ container&amp;nbsp; (1-365 days)&amp;nbsp;&lt;/div&gt;&lt;div&gt;versioning for blobs&amp;nbsp;&lt;/div&gt;&lt;div&gt;blob change feed&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="620" x="50" y="12340" as="geometry" />
+        </mxCell>
+        <mxCell id="G9NwyEVDJ_fRJbGKaYAl-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="How can you recover/ protect your data saved in&lt;b&gt;&amp;nbsp;file share in storage account &lt;/b&gt;??&amp;nbsp;&lt;div&gt;&lt;br&gt;Soft delete for classic file share (1- 365)&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="536" x="79" y="12470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
