@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3FCAWgGivvUF1Nj-s7xG">
-    <mxGraphModel dx="824" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -773,7 +773,7 @@
         <mxCell id="fga7eTrGUmKx1MwrDtWP-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="null" vertex="1">
           <mxGeometry height="30" width="114.72" x="315.28" y="5310" as="geometry" />
         </mxCell>
-        <mxCell id="fga7eTrGUmKx1MwrDtWP-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="backend" vertex="1">
+        <mxCell id="fga7eTrGUmKx1MwrDtWP-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="backend" vertex="1">
           <mxGeometry height="30" width="114.72" x="315.28" y="5350" as="geometry" />
         </mxCell>
         <mxCell id="fga7eTrGUmKx1MwrDtWP-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="features" vertex="1">
@@ -1864,6 +1864,21 @@
         </mxCell>
         <mxCell id="G9NwyEVDJ_fRJbGKaYAl-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="How can you recover/ protect your data saved in&lt;b&gt;&amp;nbsp;file share in storage account &lt;/b&gt;??&amp;nbsp;&lt;div&gt;&lt;br&gt;Soft delete for classic file share (1- 365)&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="536" x="79" y="12470" as="geometry" />
+        </mxCell>
+        <mxCell id="PMdVMy1Y6hIb8lqK0X0t-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="Steps to move our state file to Remote ??&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="636.25" x="33.7" y="12560" as="geometry" />
+        </mxCell>
+        <mxCell id="PMdVMy1Y6hIb8lqK0X0t-4" edge="1" parent="1" source="PMdVMy1Y6hIb8lqK0X0t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PMdVMy1Y6hIb8lqK0X0t-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMdVMy1Y6hIb8lqK0X0t-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Storage Account&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="208.25" y="12630" as="geometry" />
+        </mxCell>
+        <mxCell id="PMdVMy1Y6hIb8lqK0X0t-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Blob Container&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="470.01" y="12630" as="geometry" />
+        </mxCell>
+        <mxCell id="PMdVMy1Y6hIb8lqK0X0t-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Backend Block" vertex="1">
+          <mxGeometry height="40" width="236.75" x="260" y="12720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
