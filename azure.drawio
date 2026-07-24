@@ -1880,6 +1880,18 @@
         <mxCell id="PMdVMy1Y6hIb8lqK0X0t-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Backend Block" vertex="1">
           <mxGeometry height="40" width="236.75" x="260" y="12720" as="geometry" />
         </mxCell>
+        <mxCell id="_0gjxEYeo3kAN0EOcibb-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="State Lock&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="247.5" x="267.78" y="12780" as="geometry" />
+        </mxCell>
+        <mxCell id="_0gjxEYeo3kAN0EOcibb-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Terraform apply -lock=false&amp;nbsp; &amp;nbsp;= to break the lease of other user" vertex="1">
+          <mxGeometry height="60" width="251" x="12.43" y="12840" as="geometry" />
+        </mxCell>
+        <mxCell id="_0gjxEYeo3kAN0EOcibb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Terraform show =&amp;nbsp; to show the state file on terminal&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="235" x="28.43" y="12930" as="geometry" />
+        </mxCell>
+        <mxCell id="_0gjxEYeo3kAN0EOcibb-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="terraform state pull&amp;nbsp;&amp;gt; backup.tfstate&amp;nbsp; = state file ko remote se lekr hmare local pr backup.tfstate name ki file create krke usme save kr dega&amp;nbsp;" vertex="1">
+          <mxGeometry height="110" width="498" x="325.25" y="12850" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
