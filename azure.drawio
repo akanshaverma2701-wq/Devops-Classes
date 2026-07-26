@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3FCAWgGivvUF1Nj-s7xG">
-    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1891,6 +1891,178 @@
         </mxCell>
         <mxCell id="_0gjxEYeo3kAN0EOcibb-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="terraform state pull&amp;nbsp;&amp;gt; backup.tfstate&amp;nbsp; = state file ko remote se lekr hmare local pr backup.tfstate name ki file create krke usme save kr dega&amp;nbsp;" vertex="1">
           <mxGeometry height="110" width="498" x="325.25" y="12850" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Authorization/ Access Control in Storage Account&amp;nbsp; -&amp;nbsp; it is the process of verifying whether a user or application has permission to access azure storage account&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="725" x="31" y="13020" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="It ensures that&amp;nbsp; -&amp;nbsp;&lt;br&gt;1) only authorized user can access data&amp;nbsp;&amp;nbsp;&lt;div&gt;2) users can perform only the actions that they have been granted permission to&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="470" x="146" y="13100" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-7" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-3" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="98.9" width="109.89" x="110" y="13221.1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VM - application frontend&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="131" y="13240" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-6" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="98.9" width="109.89" x="317.56" y="13221.1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VM - Backend&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="337" y="13240" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Check cibil - pan details&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="135" y="13330" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="332" y="13320" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-11" parent="1" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="126" width="145" x="680" y="13192" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-12" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;" value="" vertex="1">
+          <mxGeometry height="49.64" width="61.09" x="690.98" y="13230.18" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="13320" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-15" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="13255.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Customer details for risk calcultion, cibil&amp;nbsp; calcultion&amp;nbsp;" vertex="1">
+          <mxGeometry height="31" width="160" x="502.38" y="13240" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-17" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389" y="13470" />
+              <mxPoint x="-10" y="13470" />
+            </Array>
+            <mxPoint x="-10" y="13500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-22" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="13500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-37" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Methods For Authorization&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="550" x="114" y="13390" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-20" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Microsoft Entra ID + Managed Identity&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="190" x="-46.11" y="13510" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-19" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="User&amp;nbsp; - to using entra id hoti hai&amp;nbsp; &amp;nbsp;to agr uske sath RBAC to usko access de skte hai&amp;nbsp;&amp;nbsp;&lt;br&gt;Entra id or Azure active directory lets you secretly authenticate your identity and authorize access to azure storage account using RBAC" vertex="1">
+          <mxGeometry height="110" width="350" x="-125" y="13650" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Managed Identity - Identity assigned to any azure resource&amp;nbsp; &amp;nbsp;+ RBAC&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="347.5" x="-136.75" y="13780" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-25" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Access Keys&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="168" x="266.75" y="13510" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Whenver any storage account is created , azure automatically generates 2 access keys&amp;nbsp;&amp;nbsp;&lt;div&gt;Key 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;Key 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="217.75" x="242.25" y="13622.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-34" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="why 2 keys ?&amp;nbsp;&lt;div&gt;&amp;nbsp;allows key rotation with 0 downtime&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="245" y="13730" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-30" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-32" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="app&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="110" x="-130" y="13900" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="key 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="110" x="60" y="13900" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-31" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Key 2" vertex="1">
+          <mxGeometry height="40" width="105" x="-127.5" y="14010" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Allows full access to the storage account&amp;nbsp;&lt;/div&gt;&lt;div&gt;doesnt need az login&amp;nbsp;&lt;/div&gt;&lt;div&gt;can delete the data&amp;nbsp;&lt;/div&gt;&lt;div&gt;can update data&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;can create SAS token&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="250" y="13860" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="preventive measures&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;store keys in key vault&amp;nbsp;&lt;div&gt;Rotate Regularly&amp;nbsp;&lt;br&gt;never hard code&amp;nbsp;&lt;/div&gt;&lt;div&gt;Monitor who has the access&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="252.64" y="13980" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-39" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-36" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="SAS Key (Shared Access Signature )&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="190" x="615" y="13510" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-41" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-43" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-45" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="678.5" y="13755" as="sourcePoint" />
+            <mxPoint x="848.5" y="13790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-38" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="It is temporary access token which gives the limited permission to specific resource.&amp;nbsp;&lt;br&gt;&lt;br&gt;limited permission&amp;nbsp; - read/ write/ delete&amp;nbsp;&lt;br&gt;access to specific resource - blob, file share, table, queue&amp;nbsp;&lt;br&gt;access for a limited time&amp;nbsp;" vertex="1">
+          <mxGeometry height="120" width="270" x="575" y="13610" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-48" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-40" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="Service SAS" vertex="1">
+          <mxGeometry height="60" width="120" x="515" y="13780" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-50" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-42" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="Account SAS" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="13780" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-52" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pU21j19hQTPE2QVeaYNv-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-44" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="User Delegation SAS" vertex="1">
+          <mxGeometry height="60" width="104" x="796" y="13780" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-47" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="Access to specific Service - blob, table, queue, file share&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="515" y="13890" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-49" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="Poore storage account ka access de dete hai&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="13890" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-53" edge="1" parent="1" source="pU21j19hQTPE2QVeaYNv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="848" y="13970" />
+              <mxPoint x="40" y="13970" />
+            </Array>
+            <mxPoint x="40" y="13580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-51" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="particular user - azure id&amp;nbsp;&lt;div&gt;short lived&amp;nbsp;&lt;/div&gt;&lt;div&gt;Blob storage only&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="788" y="13890" as="geometry" />
+        </mxCell>
+        <mxCell id="pU21j19hQTPE2QVeaYNv-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="What are the best practices to access / authorization of storage account&amp;nbsp; ?&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="620" x="31" y="14090" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
