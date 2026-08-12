@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3FCAWgGivvUF1Nj-s7xG">
-    <mxGraphModel dx="1381" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2500,6 +2500,155 @@
         </mxCell>
         <mxCell id="gmETIPAwnOYV8FP0fFXP-12" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
           <mxGeometry height="16" width="17.78" x="60" y="19500" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Communication with on premises network&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="657.5" x="-160" y="19560" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-4" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="19669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.office_building;" value="" vertex="1">
+          <mxGeometry height="78" width="50" x="-52.22" y="19630" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Cloud_Services_Classic.svg;" value="" vertex="1">
+          <mxGeometry height="52" width="72" x="230" y="19643" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;VPN - Virtual Private Network&amp;nbsp;&lt;/b&gt; - Data inside the tunnel is encrypted&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Point to site&amp;nbsp; VPN&amp;nbsp; - single machine se Vnet connection&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Laptop -&amp;nbsp; VPN client -- Internet --Azure VPN&amp;nbsp; gateway --- Azure Vnet&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;use cases - developer&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;testing&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;wfh&amp;nbsp; &amp;nbsp;Laptop -- Azure VM (Private IP)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Site to Site VPN&amp;nbsp; -&amp;nbsp; Connecting Complete office network to azure Vnet&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;office me hi VPN device install / firewall hota hai&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;office network --- VPN device&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;(Firewall)&amp;nbsp; ---- Internet --- AZure VPN gateway --- Azure Vnet&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;use cases - hybrid cloud set ups&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="920" x="-250" y="19780" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-6" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="23" width="25.56" x="-77.78" y="19630" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-7" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cell_phone.svg;" value="" vertex="1">
+          <mxGeometry height="42.33" width="17.78" x="-111" y="19653" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-9" parent="1" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.tunnel;" value="" vertex="1">
+          <mxGeometry height="52" width="241.86" x="5" y="19680" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Express Route&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;b&gt;On prem network&amp;nbsp; --- cluster router -- service provider (ISP/ MPLS) ----Azure express route circuit --- Vnet&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;data never goes on internet&amp;nbsp;&lt;/div&gt;&lt;div&gt;no exposure to middle man, public ip attacks&amp;nbsp;&lt;/div&gt;&lt;div&gt;NSG / firewalls / private end points fully works&amp;nbsp;&lt;/div&gt;&lt;div&gt;Banks , govt agencies, defence, MNCs&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="858" x="-210" y="20060" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-13" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="efgEypc_qhy7g7ffJlLf-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-14" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="20400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Filtering Network Traffic&amp;nbsp; - Vnet helps in allowing/ blocking/ inspecting traffic in 2 levels -&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="650" x="-90" y="20240" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" value="NSG&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Layer 4 firewall which filters network traffic to and from azure resources using security rules based on -&amp;nbsp;&lt;/div&gt;&lt;div&gt;IP address&amp;nbsp;&lt;/div&gt;&lt;div&gt;Port&amp;nbsp;&lt;/div&gt;&lt;div&gt;Protocol ( TCP/ UDP)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NSG apply hota hai -&amp;nbsp;&lt;/div&gt;&lt;div&gt;Subnet&amp;nbsp;&lt;/div&gt;&lt;div&gt;VM ke NIC&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="190" x="-220" y="20400" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-15" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" value="NVA&amp;nbsp;&lt;div&gt;&amp;nbsp;Network virtual appliance&amp;nbsp;&lt;/div&gt;&lt;div&gt;layer 4 + layer 7 inspection of traffic&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="250" x="420" y="20410" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Protocol - set of rules jiske according data network me travel krta&amp;nbsp;&lt;div&gt;TCP - Trasmission control protocol - data safely pahuchna chahie order me without any loss , it is more reliable ( Https/ HTTP/ SSH , RDP, SQL)&amp;nbsp;&lt;/div&gt;&lt;div&gt;UDP&amp;nbsp; &amp;nbsp;(user Datagram protocol ) - speed needed&amp;nbsp; thoda data miss bhi hoga to chalega&amp;nbsp; (DNS , Video Streaming, online gaming)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="800" x="-180" y="20650" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-19" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="efgEypc_qhy7g7ffJlLf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-20" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="20860" />
+            </Array>
+            <mxPoint x="225" y="20860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-22" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="20850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Integration with Azure services&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="650" x="-105" y="20740" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Service End point&amp;nbsp;&lt;div&gt;&amp;nbsp;storage account / Paas service us pr public ip bn jati hai or usko hm vnet aware&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="-260" y="20850" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deploying the service inside the Vnet&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="20860" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Azure Private Link&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="20870" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="120" width="220" x="-70" y="20980" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-26" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="40" width="44.44" x="-20" y="21010" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.0.0.4" vertex="1">
+          <mxGeometry height="30" width="60" x="-27.78" y="21050" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-30" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="21030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.0.0.15" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="21015" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-29" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="130" y="21040" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-31" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;" value="" vertex="1">
+          <mxGeometry height="113.75" width="140" x="360" y="20983.13" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Private IP&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="20958" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-42" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="21226.875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-33" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;" value="" vertex="1">
+          <mxGeometry height="113.75" width="140" x="360" y="21170" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-40" edge="1" parent="1" source="efgEypc_qhy7g7ffJlLf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="21155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Public IP&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="21140" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="120" width="220" x="-70" y="21163.75" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-36" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="40" width="44.44" x="-27.78" y="21190" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.0.0.4" vertex="1">
+          <mxGeometry height="30" width="60" x="-35.56" y="21230" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Service End Point&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="120" x="-230" y="21200" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Azure Private Link&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="120" x="-210" y="21029.63" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="is public ip ko bs green vale Vnet access kr skte hai&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="21125" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-43" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="40" width="44.44" x="60" y="21190" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="IP + VM ki Nic hai ussed hi ye storage account access ho skta hai&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="21045" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-45" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="40" width="44.44" x="60" y="21035" as="geometry" />
+        </mxCell>
+        <mxCell id="efgEypc_qhy7g7ffJlLf-46" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="60" y="21090" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
